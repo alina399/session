@@ -22,7 +22,7 @@ public class RegistrActivity extends AppCompatActivity {
 
     EditText usernameEditText, emailEditText, passEditText, retryPassEditText;
     Button button;
-    String username, email, pass, retryPassword;
+    String username, email, pass, retryPass;
     WarningDialog warningDialog;
     String url = "http://cars.areas.su/signup";
     HttpURLConnection connection;
@@ -35,7 +35,7 @@ public class RegistrActivity extends AppCompatActivity {
         usernameEditText = findViewById(R.id.username);
         emailEditText = findViewById(R.id.email);
         passEditText = findViewById(R.id.pass);
-        retryPassEditText = findViewById(R.id.retryPass);
+        retryPassEditText = findViewById(R.id.retry_pass);
         button = findViewById(R.id.registration);
 
 
